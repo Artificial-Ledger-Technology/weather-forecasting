@@ -5,26 +5,34 @@ Weather forecasting is an application of Time Series Forecasting where we use ti
 ## Table of Contents
 
 - [Dataset](#dataset)
-- [Notebook](#notebook) 
+- [Notebook](#notebook)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Contributing](#contributing) 
 
-## Dataset
+## 📊 Dataset 
 
-The dataset used for weather forecasting is located in the `data/` directory. It contains historical weather data, such as temperature, humidity, wind speed, and precipitation levels.
+The dataset used for weather forecasting is located in the `data/` directory. It consists of the following files:
 
-## Notebook
+### ✨ DailyDelhiClimateTrain.csv 
+
+This file contains historical weather data for Delhi, India, used for training the forecasting model. It includes features such as temperature, humidity, wind speed, and precipitation levels.
+
+### ✨ DailyDelhiClimateTest.csv 
+
+This file contains weather data for Delhi, India, used for testing and evaluating the trained forecasting model.
+
+## 📓 Notebook 
 
 The `weather_forecasting.ipynb` notebook contains the code and explanations for the weather forecasting process. It includes the following steps:
 
 1. **Data Preprocessing**: Loading and cleaning the dataset, handling missing values, and feature engineering.
 2. **Exploratory Data Analysis (EDA)**: Visualizing the data, identifying patterns, and understanding the relationships between different features.
 3. **Model Selection**: Choosing an appropriate time series forecasting model, such as ARIMA, SARIMA, or Prophet.
-4. **Model Training**: Training the selected model on the historical data.
+4. **Model Training**: Training the selected model on the historical data (DailyDelhiClimateTrain.csv).
 5. **Forecasting**: Using the trained model to make forecasts for future time periods.
-6. **Evaluation**: Assessing the performance of the forecasting model using appropriate metrics.
+6. **Evaluation**: Assessing the performance of the forecasting model using appropriate metrics and the test data (DailyDelhiClimateTest.csv).
 
-## Usage
+## 🧊 Usage 
 
 To run the notebook and replicate the weather forecasting process, follow these steps:
 
@@ -33,7 +41,7 @@ To run the notebook and replicate the weather forecasting process, follow these 
 3. Open the `weather_forecasting.ipynb` notebook in Jupyter Notebook or JupyterLab.
 4. Execute the notebook cells sequentially to preprocess the data, perform EDA, train the model, and generate forecasts.
 
-## Contributing
+## 💻 Contributing 
 
 Contributions to this project are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
